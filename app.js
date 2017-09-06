@@ -11,7 +11,13 @@ app.get('/', function (req,res){
     
 });
 
+app.get('/books', function (req, res) {
+    res.send('Hello Books');
+});
+
 
 app.listen(port, function(){
     console.log('Server is running successfully at 5000');
 });
+
+
